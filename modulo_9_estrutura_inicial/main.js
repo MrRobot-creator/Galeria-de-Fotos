@@ -20,7 +20,7 @@ $(document).ready(function() {
             </div>`
         ).appendTo(novoItem);
         $(novoItem).appendTo('ul');
-        $(novoItem).fadeIn();
+        $(novoItem).fadeIn(1000);
         $('#endereço-img-nova').val('');
     })
 })
